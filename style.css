@@ -1,0 +1,87 @@
+
+.planing h2 {
+    background: #2ea5f6;
+    padding: 5px;
+    width: 29%;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .planing h2:hover {
+    background-color: red;
+    border: 3px solid black;
+    color: black;
+    box-shadow: 10px 10px 40px blue;
+  }
+  .sytem h2 {
+    text-transform: uppercase;
+    color: #ff5;
+  }
+  .single-img img {
+	width: 50%;
+	border: 5px solid blue;
+    text-align: center;
+    transition: .5s;
+}
+  
+.single-img img:hover {
+    border-color: red;
+    width: 25%;
+    transform: rotate(200deg);
+  }
+  .multipul {
+    display: flex;
+  }
+  .multipul img {
+    width: 100%;
+    padding: 72px;
+    display: grid;
+  }
+  
+  .media h2 {
+    text-align: center;
+    padding: 50px;
+    color: navy;
+    font-size: 40px;
+  }
+  .media video {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 66px;
+  }
+ 
+  .media audio {
+    position: absolute;
+    left: 40%;
+    border: 5px solid greenyellow;
+  }
+  .multipul h3 {
+    bottom: 100%;
+  }
+  .pricing .box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 10px;
+  }
+  
+  .money {
+    display: flex;
+    margin: 20px 14%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    margin: 20px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .sytem h3 {
+	text-align: center;
+	font-size: 40px;
+	padding: 50px;
+}
